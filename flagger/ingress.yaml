@@ -9,9 +9,9 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-    - host: {dockerHubUsername}.westus2.cloudapp.azure.com
-      http:
-        paths:
-          - backend:
-              serviceName: gitops-foundations-service
-              servicePort: 80
+  - host: niiiixd.westus2.cloudapp.azure.com
+    http:
+      paths:
+      - backend:
+          serviceName: gitops-foundations-service
+          servicePort: 80
